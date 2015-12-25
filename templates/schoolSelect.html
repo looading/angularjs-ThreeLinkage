@@ -1,0 +1,18 @@
+<label class="item item-input item-select">
+    省:
+  <select ng-model="sign.province" name="province" ng-change="changeC()" ng-options="list for list in provinceList">
+    <option value="" selected hidden>
+  </select>
+</label>
+<label class="item item-input item-select">
+   市:
+  <select ng-model="sign.city" name="city" ng-change="changeS()" ng-options="list for list in cityList">
+    <option value="" selected hidden>
+  </select>
+</label>
+<label class="item item-input item-select">
+    学校:
+  <select  ng-model="sign.school"  name="school" ng-options="list for list in schoolList">
+    <option value="" selected hidden>
+  </select>
+</label>

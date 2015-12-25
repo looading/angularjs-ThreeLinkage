@@ -1,0 +1,15 @@
+{
+  "name": "threelinkage",
+  "version": "1.0.0",
+  "description": "angularjs directive,threelinkage",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angularjs",
+    "threelinkage"
+  ],
+  "author": "ctyloading",
+  "license": "ISC"
+}
